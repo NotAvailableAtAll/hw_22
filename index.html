@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>hw 22</title>
+</head>
+<body>
+
+
+<div class="container">
+<div class="nav" id="nav">
+    <button class="view_add" id="view_add">Add products</button>
+    <button class="view_products" id="view_products">Products</button>
+    <select name="filter" class="filter none" id="filter">
+        <option disabled>Choose products</option>
+        <option value="all">All</option>
+        <option value="milk">Milk</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="wine">Wine</option>
+    </select>
+</div>
+
+<div class="card_product" id="card_product"></div>
+
+<div class="container_form">
+    <form class="form" id="form">
+    <input type="number" name="product_id" class="product_id" id="product_id" placeholder="Type ID">
+    <input type="text" name="title" class="title" id="title" placeholder="Type product title">
+    <input type="text" name="manufacture" class="manufacture" id="manufacture" placeholder="Type manufacture">
+    <input type="number" name="price" class="price" id="price" placeholder="Type price">
+        <select name="form_selector" class="form_selector" id="form_selector">
+            <option disabled>Choose products</option>
+            <option value="milk">Milk</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="wine">Wine</option>
+        </select>
+    <label class="#" id="product_selector">
+    <input type="number" name="fat" class="fat" id="fat" placeholder="Type fat">
+    </label>
+        <button>ADD</button>
+    </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="class.js"></script>
+<script src="appl.js"></script>
+
+</body>
+</html>
